@@ -1,18 +1,25 @@
 package StarterLevel.L6Methods.Chepter2;
 
 public class test {
-    static int met1(int a){
-        int c = a*40;
-        return c;
+    static int plusMethod(int x, int y) {
+
+        return x + y;
+
     }
-    static void met2(int a){
-        int c = a*26;
-        System.out.println(c);
+
+    static int plusMethod(int x, double y) {
+
+        return (int) (x + y);
+
     }
+
     public static void main(String[] args) {
-     int a = met1(7);
-     met2(8);
-     int c = a;
-        System.out.println(c);
+
+
+        System.out.println("int: " +    plusMethod(4, 6.26));
+
+        double r = plusMethod(4,7);
+        System.out.println("double: " + r);
+
     }
 }

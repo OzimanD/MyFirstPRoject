@@ -10,10 +10,10 @@ public class C07_DoWhileContinue {
             counter++;
             System.out.println("Counter " + counter);
 
-            if (true) continue;
+            if (counter==3) continue;
 
             System.out.println("Цей рядок не виконається.");
-        } while (counter < 3);
+        } while (counter < 5);
 
         System.out.println("Вироблено " + counter + " ітерацій.");
     }

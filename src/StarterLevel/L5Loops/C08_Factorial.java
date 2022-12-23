@@ -19,7 +19,7 @@ public class C08_Factorial {
     //     ADCB  BDCA  CDBA  DCBA
 
     public static void main(String[] args) {
-        int counter = 6;
+        int counter = 0;
         int factorial = 1;
 
         System.out.print("Факторіал числа: " + counter + "! = ");

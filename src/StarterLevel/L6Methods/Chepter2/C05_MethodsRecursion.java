@@ -7,6 +7,7 @@ public class C05_MethodsRecursion {
     // Проста рекурсія – виклик методом самого себе (самовиклик). Під час кожного виклику будується нова копія методу.
 
     static void recursion(int counter) {
+        int i = 0;
         counter--;
 
         System.out.println("Перша половина методу: " + counter);

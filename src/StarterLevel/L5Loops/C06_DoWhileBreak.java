@@ -4,17 +4,17 @@ public class C06_DoWhileBreak {
     // Циклічна конструкція – do-while. (з достроковим виходом із циклу - break)
 
     public static void main(String[] args) {
-        int counter = 0;
+        int i = 0;
 
         do {
-            counter++;
-            System.out.println("Counter " + counter);
+            i++;
+            System.out.println("Counter " + i);
 
-            if (true) break;
+            if (i==2) break;
             System.out.println("Цей рядок не виконається.");
         }
-        while (counter < 3) ;
+        while (i < 5) ;
 
-        System.out.println("Вироблено " + counter + " ітерацій.");
+        System.out.println("Вироблено " + i + " ітерацій.");
     }
 }

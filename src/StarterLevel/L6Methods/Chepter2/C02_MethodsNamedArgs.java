@@ -12,7 +12,7 @@ public class C02_MethodsNamedArgs {
         int difference;
         difference = difference(6, 5);
 
-        // difference = difference(5, 6);
+         difference = difference(5, 6);
 
         System.out.println("Різниця дорівнює: " + difference);
     }

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/abstraction/ex002_abstraction/Main.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/abstraction/ex003_abstraction/Main.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/abstraction/ex004_abstraction/AbstractBaseClass.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/abstraction/ex004_abstraction/ConcreteDerivedClass.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/abstraction/ex004_abstraction/Main.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/abstraction/ex005_abstraction/AbstractBaseClass.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/abstraction/ex005_abstraction/ConcreteDerivedClass.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/abstraction/ex005_abstraction/Main.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/abstraction/ex006_abstraction/Main.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/abstraction/example2/Bird.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/abstraction/example2/Main.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/abstraction/example2/Penguin.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/abstraction/example2/Straus.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/abstraction/example2/Swallow.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/abstraction/exemple1/Bird.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/abstraction/exemple1/Main.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/abstraction/exemple1/Penguin.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/abstraction/exemple1/Straus.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/abstraction/exemple1/Swallow.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/interfaces/ex001_interfaces/Main.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/interfaces/ex002_interfaces/DerivedClass.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/interfaces/ex002_interfaces/Interface1.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/interfaces/ex002_interfaces/Interface2.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/interfaces/ex002_interfaces/Main.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/interfaces/ex003_interfaces/BaseClass.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/interfaces/ex003_interfaces/DerivedClass.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/interfaces/ex003_interfaces/Interface1.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/interfaces/ex003_interfaces/Interface2.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/interfaces/ex003_interfaces/Main.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/interfaces/ex004_interfaces/Main.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/interfaces/ex005_interfaces/Main.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/interfaces/ex006_interfaces/Main.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/interfaces/ex007_interfaces/Main.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/interfaces/ex008_interfaces/Main.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L5nestedclasess/static_members/ex007_static/Main.java" charset="windows-1251" />
+  </component>
+</project>

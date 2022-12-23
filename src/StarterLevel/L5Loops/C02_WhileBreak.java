@@ -4,17 +4,16 @@ public class C02_WhileBreak {
     // Циклічна конструкція – while. (з достроковим виходом із циклу - break)
 
     public static void main(String[] args) {
-        int counter = 0;
+        int i = 0;
 
-        while (counter < 3) {
-            counter++;
-            System.out.println("Counter " + counter);
+        while (i < 5) {
+            i++;
+            System.out.println("Counter " + i);
 
-            if (true) break;
+            if (i==3) break;
 
             System.out.println("Цей рядок не виконається.");
         }
 
-        System.out.println("Вироблено " + counter + " ітерацій.");
     }
 }

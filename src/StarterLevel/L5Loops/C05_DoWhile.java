@@ -4,13 +4,13 @@ public class C05_DoWhile {
     // Циклічна конструкція - do-while.
 
     public static void main(String[] args) {
-        int counter = 0;
+        int i = 0;
 
         do {
-            counter++;
-            System.out.println("Counter " + counter);
-        } while (counter > 3);
+            i++;
+            System.out.println("Counter " + i);
+        } while (i > 3);
 
-        System.out.println("Вироблено " + counter + " ітерацій.");
+        System.out.println("Вироблено " + i + " ітерацій.");
     }
 }

@@ -15,7 +15,7 @@ public class C07_MethodsBinaryDigit {
     }
 
     public static void main(String[] args) {
-        int n = 6487;
+        int n = 27;
 
         converter(n);
     }

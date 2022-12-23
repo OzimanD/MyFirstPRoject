@@ -5,22 +5,22 @@ import java.util.Scanner;
 public class C14Input {
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("Введіть ціле число: ");
-        int a = input.nextInt();
+        int a = sc.nextInt();
 
         System.out.println("Введіть дрібне число: ");
-        float b = input.nextFloat();
+        float b = sc.nextFloat();
 
 
         System.out.println("Введіть рядок із пробілами: ");
-        String c = input.next();
+        String c = sc.next();
 
-        input = new Scanner(System.in);
+        sc = new Scanner(System.in);
 
         System.out.println("Введіть рядок: ");
-        String d = input.nextLine();
+        String d = sc.nextLine();
 
         System.out.println(a + "\n" + b + "\n" + c + "\n" + d);
     }

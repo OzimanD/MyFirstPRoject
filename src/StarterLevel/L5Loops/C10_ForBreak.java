@@ -4,10 +4,10 @@ public class C10_ForBreak {
     // Циклічна конструкція (цикл із лічильником) - for (з достроковим виходом із циклу - break).
 
     public static void main(String[] args) {
-        for (int counter = 0; counter < 3; counter++) {
-            System.out.println("Counter = " + counter);
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Counter = " + i);
 
-            if (true) break;
+            if (false) break;
 
             System.out.println("Цей рядок не виконається.");
         }

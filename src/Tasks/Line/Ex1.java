@@ -146,17 +146,59 @@ public class Ex1 {
 //        System.out.println(od);
 //        System.out.println(des);
         //11-12
-        int n = sc.nextInt();
-        int od = n % 10;
-        int des = n / 10 % 10;
-        int sot = n / 100;
-        int sum = od + des +sot;
-        int mn = od * des * sot;
-        System.out.println(sum);
-        System.out.println(mn);
-        int revers = (od*100)+(des*10)+sot;
-        System.out.println(revers);
-
-
+//        int n = sc.nextInt();
+//        int od = n % 10;
+//        int des = n / 10 % 10;
+//        int sot = n / 100;
+//        int sum = od + des +sot;
+//        int mn = od * des * sot;
+//        System.out.println(sum);
+//        System.out.println(mn);
+//        int revers = (od*100)+(des*10)+sot;
+//        System.out.println(revers);
+        //ex1 bool
+//        int a = -7;
+//        boolean bool1 = (a>0);
+//        System.out.println(bool1);
+        //ex3
+//        int a = 8;
+//        boolean bool = (a % 2 == 0);
+//        System.out.println(bool);
+        //ex2
+//        int a = 4;
+//        boolean bool = (a % 2 ==1);
+//        System.out.println(bool);
+        //ex4
+//        int a = 1;
+//        int b = 3;
+//        boolean bool = ((a>2)&&(b<=3));
+//        System.out.println(bool);
+        //ex5
+//        int a = 1;
+//        int b = -3;
+//        boolean bool = ((a>=0)&&(b<-2));
+//        System.out.println(bool);
+        //ex6
+//        int a = 2;
+//        int b = 2;
+//        int c = 3;
+//        boolean bool = ((a<b)&&(b<c));
+//        System.out.println(bool);
+        //ex7
+//        int a = 7;
+//        int b = 6;
+//        int c = 9;
+//        boolean bool = ((a<b)&&(c>b));
+//        System.out.println(bool);
+        //ex8
+//        int a = 7;
+//        int b = 9;
+//        boolean bool = ((a%2==1)&&(b%2==1));
+//        System.out.println(bool);
+        //ex9
+//        int a = 7;
+//        int b = 10;
+//        boolean bool = ((a%2==1)||(b%2==1));
+//        System.out.println(bool);
     }
 }

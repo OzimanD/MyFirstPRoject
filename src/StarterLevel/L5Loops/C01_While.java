@@ -4,13 +4,14 @@ public class C01_While {
     // Циклічна конструкція - while.
 
     public static void main(String[] args) {
-        int counter = 0;
+        int i = 0;
+        int iteration = 0;
 
-        while (counter < 3) {
-            counter++;
-            System.out.println("Counter " + counter);
+        while (i > 5) {
+            i--;
+            System.out.println("Counter " + i);
+            iteration++;
         }
-
-        System.out.println("Вироблено " + counter + " ітерацій.");
+        System.out.println("iteration = "+ iteration);
     }
 }

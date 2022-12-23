@@ -1,3 +1,5 @@
+import test.Main;
+
 public class MyfirsClass {
     public static void main(String[] args) {
         System.out.println("New line");
@@ -5,5 +7,6 @@ public class MyfirsClass {
         System.out.println("new line 2");
         char c = 65;
         System.out.println(c);
+        Main main = new Main();
     }
 }
