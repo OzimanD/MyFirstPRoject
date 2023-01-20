@@ -1,25 +1,25 @@
 package StarterLevel.L6Methods.Chepter2;
 
 public class test {
-    static int plusMethod(int x, int y) {
-
-        return x + y;
-
+    static int add(int a, int b){
+        int c = a+b;
+        return c;
+    }
+    static double add(double a, double b){
+        double c = a+b;
+        return c;
     }
 
-    static int plusMethod(int x, double y) {
-
-        return (int) (x + y);
-
+    static void add(){
+        int c = add(7,5);
+        double c1 = add(7.7,5.5);
+        double result = c+c1;
+        System.out.println(result);
     }
 
     public static void main(String[] args) {
-
-
-        System.out.println("int: " +    plusMethod(4, 6.26));
-
-        double r = plusMethod(4,7);
-        System.out.println("double: " + r);
-
+        System.out.println(add(7,7));
+        System.out.println(add(8.8,8.8));
+        add();
     }
 }

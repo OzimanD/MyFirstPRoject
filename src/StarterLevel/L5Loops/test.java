@@ -2,16 +2,16 @@ package StarterLevel.L5Loops;
 
 public class test {
     public static void main(String[] args) {
-        int num = 50;
+        byte[] array = new byte[3];
 
-        if (num > 0 && num <= 14)
-            System.out.println("1-14");
-        else if (num > 14 && num <= 35)
-            System.out.println("15-35");
-        else if (num > 35 && num <= 50)
-            System.out.println("35-50");
-        else if (num > 50 && num <= 100)
-            System.out.println("51-100");
+        byte array1[] = new byte[3];
+
+        byte[] array2 = new byte[] { 1, 2, 3};
+
+        byte[] array3 = { 1, 2, 3};
+
+        boolean[] arr = {true, false, true};
+        System.out.println(arr.length);
 
 
 

@@ -40,6 +40,11 @@ public class Main {
 
         instance.operationA();
 
-        //instance.operationB();  // Питання: чому недоступний цей метод?
+//        instance.operationB();  // Питання: чому недоступний цей метод?
+        AbstractClassB instance1 = new ConcreteClass();
+
+        instance1.operationB();
+        instance1.operationA();
+
     }
 }

@@ -1,7 +1,7 @@
 package StarterLevel.L5Loops;
 
 public class C10_ForBreak {
-    // Р¦РёРєР»С–С‡РЅР° РєРѕРЅСЃС‚СЂСѓРєС†С–СЏ (С†РёРєР» С–Р· Р»С–С‡РёР»СЊРЅРёРєРѕРј) - for (Р· РґРѕСЃС‚СЂРѕРєРѕРІРёРј РІРёС…РѕРґРѕРј С–Р· С†РёРєР»Сѓ - break).
+    // Циклічна конструкція (цикл із лічильником) - for (з достроковим виходом із циклу - break).
 
     public static void main(String[] args) {
         for (int i = 0; i < 5; i++) {
@@ -9,7 +9,7 @@ public class C10_ForBreak {
 
             if (false) break;
 
-            System.out.println("Р¦РµР№ СЂСЏРґРѕРє РЅРµ РІРёРєРѕРЅР°С”С‚СЊСЃСЏ.");
+            System.out.println("Цей рядок не виконається.");
         }
     }
 }

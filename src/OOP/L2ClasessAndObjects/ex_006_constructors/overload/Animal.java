@@ -1,8 +1,12 @@
 package OOP.L2ClasessAndObjects.ex_006_constructors.overload;
 
+import java.security.SecureRandom;
+
 public class Animal {
     private int age;
     private int height;
+
+    private String name;
 
     // перевантажені конструктори
     public Animal() {

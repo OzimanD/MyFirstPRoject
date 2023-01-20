@@ -1,12 +1,12 @@
 package OOP.L5nestedclasess.nested_classes.ex001_nestedclasses;
 
 /**
- * Р’РєР»Р°РґРµРЅС– РєР»Р°СЃРё.
+ * Вкладені класи.
  */
 class MyClass {
     public class Nested {
         public void method() {
-            System.out.println("РњРµС‚РѕРґ Р· Nested РєР»Р°СЃСѓ");
+            System.out.println("Метод з Nested класу");
         }
     }
 }

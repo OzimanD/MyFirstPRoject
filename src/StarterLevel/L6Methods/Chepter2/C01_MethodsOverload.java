@@ -39,6 +39,6 @@ public class C01_MethodsOverload {
         function(1);              // 3-е перевантаження.
         function(3.14);          // 4-е перевантаження.
         function("B ", 2);     // 5-е перевантаження.
-        function(3, " C");     // 6-е перевантаження.
+        function(3, " C");            // 6-е перевантаження.
     }
 }

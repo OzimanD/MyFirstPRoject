@@ -25,12 +25,12 @@ public class C11_Switch {
             // виконується тіло оператора case, постійне вираження якого, збіглося з виразом-селектора.
 
             case "1": {   // "1" — постійний вираз.
-                System.out.println("Один");                                       // Гілка 1
+                System.out.println("one");                                       // Гілка 1
                 // Вихід із перемикача.
                 break;
             }
             case "2": {
-                System.out.println("Два");                                        // Гілка 2
+                System.out.println("two");                                        // Гілка 2
                 break;
             }
 

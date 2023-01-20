@@ -28,10 +28,7 @@ public class Animal {
         this.brade = brade;
     }
 
-    public static String catsVoice(){
-        String miau = "Мяууу";
-        return miau;
-    }
+
     public void method() {
         System.out.println("method from BaseClass");
     }

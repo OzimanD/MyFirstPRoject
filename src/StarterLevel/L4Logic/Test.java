@@ -2,28 +2,18 @@ package StarterLevel.L4Logic;
 
 public class Test {
     public static void main(String[] args) {
-        int a = 27;
-        int b = 18;
-        int c = 9;
+        int numb1 = 11;
+        int numb2 = 11;
         int max = 0;
-        int min = 0;
-        int average = 0;
+        if(numb1>numb2){
+            max = numb1;
+            System.out.println(max);
+        } else if(numb1==numb2){
+            System.out.println("equals");
+        }else {
+            max = numb2;
+            System.out.println(max);
 
-        if((a>b) && (a>c)){
-            max = a;
-        }else if((b>a) && (b>c)){
-            max = b;
-        }else {
-            max = c;
         }
-        if((a<b) && (a<c)){
-            min = a;
-        }else if((b<a) && (b<c)){
-            min = b;
-        }else {
-            min = c;
-        }
-        System.out.println(max);
-        System.out.println(min);
     }
 }

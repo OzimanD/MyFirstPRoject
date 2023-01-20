@@ -17,11 +17,11 @@ public class C13_Switch {
             case "3":
             case "4":
             case "5":
-                System.out.println("Цей день тижня – Робочий.");
+                System.out.println("Цей день тижня – Робочий1.");
                 break;
             case "6":
             case "7":
-                System.out.println("Цей день тижня – Вихідний.");
+                System.out.println("Цей день тижня – Вихідний2.");
                 break;
 
             default:

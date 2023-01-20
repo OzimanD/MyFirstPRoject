@@ -1,7 +1,7 @@
 package StarterLevel.L5Loops;
 
 public class C11_ForContinue {
-    // Р¦РёРєР»С–С‡РЅР° РєРѕРЅСЃС‚СЂСѓРєС†С–СЏ (С†РёРєР» С–Р· Р»С–С‡РёР»СЊРЅРёРєРѕРј) вЂ“ for (Р· РїСЂРѕРїСѓСЃРєРѕРј С–С‚РµСЂР°С†С–С— вЂ“ continue).
+    // Циклічна конструкція (цикл із лічильником) – for (з пропуском ітерації – continue).
 
     public static void main(String[] args) {
         for (int i = 0; i < 3; i++) {
@@ -9,7 +9,7 @@ public class C11_ForContinue {
 
             if (true) continue;
 
-            System.out.println("Р¦РµР№ СЂСЏРґРѕРє РЅРµ РІРёРєРѕРЅР°С”С‚СЊСЃСЏ.");
+            System.out.println("Цей рядок не виконається.");
         }
     }
 }

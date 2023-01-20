@@ -3,26 +3,26 @@ package StarterLevel.L6Methods.Chepter1;
 import java.util.Scanner;
 
 public class C09_Methods {
-    // РџР°СЂР°РјРµС‚СЂ, С‰Рѕ РїРµСЂРµРґР°С”С‚СЊСЃСЏ Р·Р° Р·РЅР°С‡РµРЅРЅСЏРј, Р·РЅРёС‰СѓС”С‚СЊСЃСЏ РїСЂРё РїРѕРІРµСЂРЅРµРЅРЅС– Р·РЅР°С‡РµРЅРЅСЏ РјРµС‚РѕРґРѕРј
+    // Параметр, що передається за значенням, знищується при поверненні значення методом
 
     static int addTwo(int a) {
         a = a + 2;
-        System.out.println("Р—РЅР°С‡РµРЅРЅСЏ int a = " + a);
+        System.out.println("Значення int a = " + a);
         return a;
     }
 
     public static void main(String[] args) {
-        System.out.println("Р’РІРµРґС–С‚СЊ С‡РёСЃР»Рѕ:");
+        System.out.println("Введіть число:");
         Scanner in = new Scanner(System.in);
 
-        // РџСЂРёРЅРёРјР°РµРј РІРІРѕРґ РѕС‚ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ Рё РїСЂРµРѕР±СЂР°Р·СѓРµРј РµРіРѕ РІ С†РµР»РѕС‡РёСЃР»РµРЅРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ
+        // Принимаем ввод от пользователя и преобразуем его в целочисленное значение
 
         String number = in.next();
         int result = Integer.parseInt(number);
 
-        System.out.println("Р—РЅР°С‡РµРЅРЅСЏ result = " + result);
+        System.out.println("Значення result = " + result);
         result = 10;
-        // РЇРє Р°СЂРіСѓРјРµРЅС‚ РїРµСЂРµРґР°С”С‚СЊСЃСЏ РЅРµ СЃР°РјР° Р·РјС–РЅРЅР° - result, Р° С—С— РєРѕРїС–СЏ.
+        // Як аргумент передається не сама змінна - result, а її копія.
         result = addTwo(result);
         System.out.println(addTwo(result));
         System.out.println(result);

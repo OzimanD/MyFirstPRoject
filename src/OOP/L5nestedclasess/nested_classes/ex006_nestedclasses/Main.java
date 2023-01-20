@@ -1,13 +1,13 @@
 package OOP.L5nestedclasess.nested_classes.ex006_nestedclasses;
 
 /**
- * Р’РєР»Р°РґРµРЅС– РєР»Р°СЃРё.
- * РљР»Р°СЃРё РјРѕР¶СѓС‚СЊ РјС–СЃС‚РёС‚Рё СЃС‚Р°С‚РёС‡РЅС– Nested РєР»Р°СЃРё.
+ * Вкладені класи.
+ * Класи можуть містити статичні Nested класи.
  */
 class MyClass {
     public static class Nested {
         public static void staticMethodFromNested() {
-            System.out.println("РЎС‚Р°С‚РёС‡РЅРёР№ РјРµС‚РѕРґ Nested РєР»Р°СЃСѓ.");
+            System.out.println("Статичний метод Nested класу.");
         }
     }
 }

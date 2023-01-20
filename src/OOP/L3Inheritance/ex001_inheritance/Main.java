@@ -17,7 +17,8 @@ public class Main {
         System.out.println(instance.publicField);
         BaseClass baseClass = new DerivedClass();
         System.out.println(baseClass.publicField);
-        BaseClass baseClass1 = new DerivedClass();
+        BaseClass baseClass1 = new BaseClass();
         System.out.println(baseClass1.a);
+        System.out.println(baseClass1.protectedField);
     }
 }

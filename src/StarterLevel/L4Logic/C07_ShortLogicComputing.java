@@ -16,9 +16,9 @@ public class C07_ShortLogicComputing {
         // генерувала б помилку поділу на 0.
 
         if ((denominator != 0) && (item / denominator) > MIN_VALUE) {   // Залиште один оператор &
-            System.out.println("Ми у блоці IF");
+            System.out.println("IF");
         } else {
-            System.out.println("Ми у блоці ELSE");
+            System.out.println("ELSE");
         }
     }
 }

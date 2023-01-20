@@ -1,12 +1,12 @@
 package OOP.L5nestedclasess.nested_classes.ex004_nestedclasses;
 
 /**
- * Р’РєР»Р°РґРµРЅС– РєР»Р°СЃРё.
+ * Вкладені класи.
  */
-class MyClass { // РЎРїР°РґРєСѓРІР°РЅРЅСЏ РІС–Рґ BaseClass РЅРµ РїРѕС€РёСЂСЋС”С‚СЊСЃСЏ.
+class MyClass { // Спадкування від BaseClass не поширюється.
     public class Nested extends BaseClass {
         public void methodFromNested() {
-            System.out.println("РњРµС‚РѕРґ Nested РєР»Р°СЃСѓ.");
+            System.out.println("Метод Nested класу.");
         }
     }
 }

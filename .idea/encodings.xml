@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="windows-1251">
     <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/abstraction/ex002_abstraction/Main.java" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/abstraction/ex003_abstraction/Main.java" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/abstraction/ex004_abstraction/AbstractBaseClass.java" charset="windows-1251" />
@@ -35,6 +35,23 @@
     <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/interfaces/ex006_interfaces/Main.java" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/interfaces/ex007_interfaces/Main.java" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/src/OOP/L4abstractionsandInterfaces/interfaces/ex008_interfaces/Main.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L5nestedclasess/nested_classes/ex001_nestedclasses/Main.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L5nestedclasess/nested_classes/ex004_nestedclasses/BaseClass.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L5nestedclasess/nested_classes/ex004_nestedclasses/Main.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L5nestedclasess/nested_classes/ex005_nestedclasses/BaseClass.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L5nestedclasess/nested_classes/ex005_nestedclasses/Main.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L5nestedclasess/nested_classes/ex006_nestedclasses/Main.java" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/src/OOP/L5nestedclasess/static_members/ex007_static/Main.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L7AnonimusClassesEnums/anonymous/ex001_anonymous_classes/Main.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L7AnonimusClassesEnums/anonymous/ex005_anonymous_classes/Main.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L7AnonimusClassesEnums/enums/ex003_enumerations/Main.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L7AnonimusClassesEnums/enums/ex004_abstract_methods/Main.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/OOP/L8TryCach/ex001_exceptions/Main.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/StarterLevel/L5Loops/C10_ForBreak.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/StarterLevel/L5Loops/C11_ForContinue.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/StarterLevel/L6Methods/Chepter1/C09_Methods.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/StarterLevel/L6Methods/Chepter2/C05_MethodsRecursion.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/StarterLevel/L6Methods/Chepter2/C06_MethodsRecursion.java" charset="windows-1251" />
+    <file url="PROJECT" charset="windows-1251" />
   </component>
 </project>

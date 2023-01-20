@@ -9,4 +9,7 @@ public class DerivedClass extends BaseClass {
         publicField = "DerivedClass.publicField";
         protectedField = "DerivedClass.protectedField";
     }
+    public void show(){
+        System.out.println("Method show from derived class");
+    }
 }

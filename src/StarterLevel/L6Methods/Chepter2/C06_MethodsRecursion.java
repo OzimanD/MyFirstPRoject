@@ -1,26 +1,26 @@
 package StarterLevel.L6Methods.Chepter2;
 
 public class C06_MethodsRecursion {
-    // Р РµРєСѓСЂСЃС–СЏ (СЃРєР»Р°РґРЅР° СЂРµРєСѓСЂСЃС–СЏ).
-    // РЎРєР»Р°РґРЅР° СЂРµРєСѓСЂСЃС–СЏ вЂ“ РІРёРєР»РёРє РјРµС‚РѕРґРѕРј СЃРµР±Рµ, С‡РµСЂРµР· С–РЅС€РёР№ РјРµС‚РѕРґ.
+    // Рекурсія (складна рекурсія).
+    // Складна рекурсія – виклик методом себе, через інший метод.
 
     static void recursion(int counter) {
         counter--;
 
-        System.out.println("РџРµСЂС€Р° РїРѕР»РѕРІРёРЅР° РјРµС‚РѕРґСѓ recursion: " + counter);
+        System.out.println("Перша половина методу recursion: " + counter);
 
         if (counter != 0)
             method(counter);
 
-        System.out.println("Р”СЂСѓРіР° РїРѕР»РѕРІРёРЅР° РјРµС‚РѕРґСѓ recursion: " + counter);
+        System.out.println("Друга половина методу recursion: " + counter);
     }
 
     static void method(int counter) {
-        System.out.println("РџРµСЂС€Р° РїРѕР»РѕРІРёРЅР° РјРµС‚РѕРґСѓ method: " + counter);
+        System.out.println("Перша половина методу method: " + counter);
 
         recursion(counter);
 
-        System.out.println("Р”СЂСѓРіР° РїРѕР»РѕРІРёРЅР° РјРµС‚РѕРґСѓ method: " + counter);
+        System.out.println("Друга половина методу method: " + counter);
     }
 
     public static void main(String[] args) {

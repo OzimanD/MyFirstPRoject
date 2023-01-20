@@ -10,10 +10,12 @@ public class C01_Methods {
         System.out.println("Hello!");
     }
 
+
     public static void main(String[] args) {
 
         // У тілі методу Main на 17-му рядку викликаємо метод procedure.
 
         procedure();
+
     }
 }
