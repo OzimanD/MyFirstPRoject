@@ -4,24 +4,24 @@ import java.util.ArrayDeque;
 
 public class Main {
     public static void main(String[] args) {
-        // РЎС‚РІРѕСЂСЋС”РјРѕ РѕР±'С”РєС‚ ArrayDeque
+        // Створюємо об'єкт ArrayDeque
         ArrayDeque<String> states = new ArrayDeque<>();
-        // РЎС‚Р°РЅРґР°СЂС‚РЅРµ РґРѕРґР°РІР°РЅРЅСЏ РµР»РµРјРµРЅС‚С–РІ
-        states.add("РЈРєСЂР°С—РЅР°");
-        states.add("Р¤СЂР°РЅС†С–СЏ");
+        // Стандартне додавання елементів
+        states.add("Україна");
+        states.add("Франція");
 
-        // Р”РѕРґР°С”РјРѕ РµР»РµРјРµРЅС‚ РЅР° РїРѕС‡Р°С‚РѕРє
-        states.push("Р’РµР»РёРєРѕР±СЂРёС‚Р°РЅС–СЏ");
+        // Додаємо елемент на початок
+        states.push("Великобританія");
 
-        // РћС‚СЂРёРјСѓС”РјРѕ РїРµСЂС€РёР№ РµР»РµРјРµРЅС‚ Р±РµР· РІРёРґР°Р»РµРЅРЅСЏ
+        // Отримуємо перший елемент без видалення
         String sFirst = states.getFirst();
         String sLast = states.getLast();
 
         while (states.peek() != null) {
-            // Р’РёР»СѓС‡РµРЅРЅСЏ Р· РїРѕС‡Р°С‚РєСѓ
+            // Вилучення з початку
             System.out.println(states.pop());
         }
-        System.out.println("Р РѕР·РјС–СЂ С‡РµСЂРіРё: " + states.size());
+        System.out.println("Розмір черги: " + states.size());
 
         ArrayDeque<Person> people = new ArrayDeque<>();
         people.addFirst(new Person("Tom"));

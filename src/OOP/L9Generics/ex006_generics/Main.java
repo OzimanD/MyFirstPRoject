@@ -1,5 +1,7 @@
 package OOP.L9Generics.ex006_generics;
 
+import test.Mers;
+
 /**
  * Поганий приклад. Так не рекомендується.
  */
@@ -22,6 +24,11 @@ public class Main {
         MyClass<Integer> my = new MyClass<>();
         int sum = my.add(2, 3);
 
+        MyClass<Double> db = new MyClass<>();
+        double sum1 = db.add(8.8,9.9);
+
         System.out.println(sum);
+        System.out.println(sum1);
+
     }
 }

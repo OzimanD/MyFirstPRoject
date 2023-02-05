@@ -6,27 +6,27 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        // РЎС‚РІРѕСЂСЋС”РјРѕ РѕР±'С”РєС‚ arrayList
+        // Створюємо об'єкт arrayList
         ArrayList<String> list = new ArrayList<>();
 
-        // РЎС‚РІРѕСЂСЋС”РјРѕ РѕР±'С”РєС‚ BufferedReader РґР»СЏ РїРѕРґР°Р»СЊС€РѕРіРѕ РІРІРµРґРµРЅРЅСЏ Р· РєР»Р°РІС–Р°С‚СѓСЂРё
+        // Створюємо об'єкт BufferedReader для подальшого введення з клавіатури
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        // Р¦РёРєР»РѕРј Р·Р°РїРѕРІРЅСЋС”РјРѕ РјР°СЃРёРІ arrayList Р·РЅР°С‡РµРЅРЅСЏРјРё
+        // Циклом заповнюємо масив arrayList значеннями
         for (int i = 0; i < 3; i++) {
-            System.out.println("Р’РІРµРґС–С‚СЊ Р·РЅР°С‡РµРЅРЅСЏ [" + i + "]");
+            System.out.println("Введіть значення [" + i + "]");
             String s = reader.readLine();
-            // Р”РѕРґР°С”РјРѕ Р·РЅР°С‡РµРЅРЅСЏ РІ РєС–РЅРµС†СЊ РјР°СЃРёРІСѓ
+            // Додаємо значення в кінець масиву
             list.add(s);
         }
 
-        // Р’РёРґР°Р»СЏС”РјРѕ РѕСЃС‚Р°РЅРЅС–Р№ СЂСЏРґРѕРє С– РґРѕРґР°С”РјРѕ Р№РѕРіРѕ РЅР° РїРѕС‡Р°С‚РѕРє
+        // Видаляємо останній рядок і додаємо його на початок
         for (int i = 0; i < 5; i++) {
             String s1 = list.remove(list.size() - 1);
             list.add(0, s1);
         }
 
-        // Р’РёРІРѕРґРёРјРѕ РЅР° РµРєСЂР°РЅ РІРµСЃСЊ РІРјС–СЃС‚
+        // Виводимо на екран весь вміст
         for (String temp : list) {
             System.out.println(temp);
         }
