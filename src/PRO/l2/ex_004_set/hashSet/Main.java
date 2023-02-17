@@ -6,14 +6,14 @@ import java.util.Set;
 public class Main {
     public static void main(String[] args){
         //
-        //РЎС‚РІРѕСЂСЋС”РјРѕ РєРѕР»РµРєС†С–СЋ С…РµС€-СЃРµС‚
+        //Створюємо колекцію хеш-сет
         Set<String> set = new HashSet<>();
-        set.add("РєР°РІСѓРЅ");
-        set.add("Р±Р°РЅР°РЅ");
-        set.add("РґРёРЅСЏ");
-        set.add("СЃСѓРЅРёС†СЏ");
-        set.add("С–СЂРёСЃ");
-        set.add("РєР°СЂС‚РѕРїР»СЏ");
+        set.add("кавун");
+        set.add("банан");
+        set.add("диня");
+        set.add("суниця");
+        set.add("ірис");
+        set.add("картопля");
         for (String text : set) {
             System.out.println(text + " " + text.hashCode());
         }

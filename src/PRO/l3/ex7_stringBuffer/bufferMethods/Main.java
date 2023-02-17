@@ -3,14 +3,14 @@ package PRO.l3.ex7_stringBuffer.bufferMethods;
 public class Main {
     public static void main(String[] args) {
         StringBuffer sb = new StringBuffer();
-        System.out.println("Ğ´Ğ¾Ğ²Ğ¶Ğ¸Ğ½Ğ° -> " + sb.length());
-        System.out.println("Ñ€Ğ¾Ğ·Ğ¼Ñ–Ñ€ -> " + sb.capacity());
-//        sb = "Java"; // Ğ¿Ğ¾Ğ¼Ğ¸Ğ»ĞºĞ°, Ñ‚Ñ–Ğ»ÑŒĞºĞ¸ Ğ´Ğ»Ñ ĞºĞ»Ğ°ÑÑƒ String Ğ¼Ğ¾Ğ¶Ğ½Ğ° Ñ‡ĞµÑ€ĞµĞ· Ğ»Ñ–Ñ‚ĞµÑ€Ğ°Ğ» ÑÑ‚Ğ²Ğ¾Ñ€ÑĞ²Ğ°Ñ‚Ğ¸
-        sb.append("Java");
-        System.out.println("Ñ€ÑĞ´Ğ¾Ğº -> " + sb);
-        System.out.println("Ğ´Ğ¾Ğ²Ğ¶Ğ¸Ğ½Ğ° -> " + sb.length());
-        System.out.println("Ñ€Ğ¾Ğ·Ğ¼Ñ–Ñ€ -> " + sb.capacity());
-        System.out.println("Ñ€ĞµĞ²ĞµÑ€Ñ -> " + sb.reverse());
+        System.out.println("äîâæèíà -> " + sb.length());
+        System.out.println("ğîçì³ğ -> " + sb.capacity());
+//        sb = "Java"; // ïîìèëêà, ò³ëüêè äëÿ êëàñó String ìîæíà ÷åğåç ë³òåğàë ñòâîğşâàòè
+        sb.append("Javaaafdsagafgsdfhgsdhdshsfhgsd");
+        System.out.println("ğÿäîê -> " + sb);
+        System.out.println("äîâæèíà -> " + sb.length());
+        System.out.println("ğîçì³ğ -> " + sb.capacity());
+        System.out.println("ğåâåğñ -> " + sb.reverse());
     }
 }
 

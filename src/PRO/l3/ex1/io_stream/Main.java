@@ -9,16 +9,16 @@ public class Main {
     public static void main(String[] args) throws Exception {
         try {
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in, "Cp866"));
-            PrintWriter pw = new PrintWriter(new OutputStreamWriter(System.out, "UTF-8"), true);
-            // true вЂ“ РѕР·РЅР°С‡Р°С”, С‰Рѕ РїС–СЃР»СЏ РІРёРєР»РёРєСѓ pw.println(вЂ¦) РјРѕР¶РЅР° РІРёРєР»РёРєР°С‚Рё pw.flush().
-            String s = "РџСЂРёРІС–С‚ СЃРІС–С‚";
+            PrintWriter pw = new PrintWriter(new OutputStreamWriter(System.out, "windows-1251"), true);
+            // true – означає, що після виклику pw.println(…) можна викликати pw.flush().
+            String s = "Привіт світ";
             System.out.println("System.out puts: " + s);
             pw.println("PrintWriter puts: " + s);
             int c = 0;
-            pw.println("РџРѕСЃРёРјРІРѕР»СЊРЅРµ РІРІРµРґРµРЅРЅСЏ:");
+            pw.println("Посимвольне введення:");
             while ((c = br.read()) != -1)
                 pw.println((char) c);
-            pw.println("РџРѕСЂСЏРґРєРѕРІРµ РІРІРµРґРµРЅРЅСЏ:");
+            pw.println("Порядкове введення:");
             do {
                 s = br.readLine();
                 pw.println(s);

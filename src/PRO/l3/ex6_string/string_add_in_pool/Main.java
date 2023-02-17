@@ -11,11 +11,11 @@ public class Main {
         // Створюємо текст через конструктор
         String s3 = new String("World");
         String s4 = new String("World");
-        System.out.println(s1 == s2);
+        System.out.println(s1 == s2);//t
 
         // Використовуючи метод intern - ми поміщаємо в пул значення
-        System.out.println(s1 == s3.intern());
-        System.out.println(s3.intern() == s4.intern());
+        System.out.println(s1 == s3.intern());//f
+        System.out.println(s3.intern() == s4.intern());//t
         System.out.println();
 
         Integer a = 10;

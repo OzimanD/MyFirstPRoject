@@ -6,8 +6,7 @@ public class Main {
     public static void main(String[] args) {
         try {
             BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(
-                            "D:\\Course\\Java Professional Course\\Java Professional Student\\003_IO_and_Strings\\" +
-                                    "003_Samples\\src\\com\\itvdn\\javaProfessional\\ex_003_io_buffered\\buffered\\Main.java"), "Cp866"));
+                            "C:\\other\\CucumberFramework\\MyFirstPRoject\\src\\PRO\\l3\\ex2\\fileInfo\\Main.java"), "Cp866"));
             BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("Main.txt"), "Cp866"));
             int c = 0;
             while ((c = br.read()) != -1) {

@@ -5,13 +5,13 @@ import java.util.Map;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        // РЎС‚РІРѕСЂСЋС”РјРѕ РјР°СЃРёРІ С‚РёРїСѓ String
-        String[] people = new String[]{"Р„РІРіРµРЅ", "РћР»РµРєСЃР°РЅРґСЂ", "РљР°С‚РµСЂРёРЅР°", "РљР°СЂС–РЅР°", "Р’РµСЂРѕРЅС–РєР°", "РўР°РјР°СЂР°", "РЎРµСЂРіС–Р№"};
+        // Створюємо масив типу String
+        String[] people = new String[]{"aaa", "Євген", "Олександр", "Катерина","яяя", "Каріна", "Вероніка", "Тамара", "Сергій", "ббб"};
 
-        // РЎС‚РІРѕСЂСЋС”РјРѕ HashMap, <РљР»СЋС‡, Р·РЅР°С‡РµРЅРЅСЏ>
+        // Створюємо HashMap, <Ключ, значення>
         HashMap<String, Human> map = addHumansToMap(people);
 
-        // Р’РёРєРѕСЂРёСЃС‚РѕРІСѓСЋС‡Рё РјРµС‚РѕРґРё С–РЅС‚РµСЂС„РµР№СЃСѓ Map.Entry<Key, Value>, РїСЂРѕР±С–РіР°С”РјРѕ РїРѕ map
+        // Використовуючи методи інтерфейсу Map.Entry<Key, Value>, пробігаємо по map
         for (Map.Entry<String, Human> pair : map.entrySet()) {
             System.out.println(pair.getKey() + " - " + pair.getValue());
         }
@@ -32,7 +32,7 @@ public class Main {
             this.name = name;
         }
 
-        // РџРµСЂРµРІРёР·РЅР°С‡Р°С”РјРѕ РјРµС‚РѕРґ toString РєР»Р°СЃСѓ Object
+        // Перевизначаємо метод toString класу Object
         @Override
         public String toString() {  /// Alex  - >  ALEX
             return name != null ? name.toUpperCase() : null;
