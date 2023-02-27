@@ -13,7 +13,7 @@ public class SomeClass {
     @Test
     public static boolean selfTest() {
         // Тестуємо нашу програму, 1 + 2 + 3 + 4 == 10
-        boolean res = job(1, 2, 3, 4) == 10;
+        boolean res = job(1, 2, 3, 4,7) == 10;
         System.out.println("SomeClass: " + res);
         return res;
     }

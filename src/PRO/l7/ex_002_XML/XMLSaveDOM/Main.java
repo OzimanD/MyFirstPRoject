@@ -49,7 +49,7 @@ public class Main {
             Transformer t = tf.newTransformer();
             // Схожа ієрархія на I/O
             DOMSource source = new DOMSource(doc);
-            StreamResult sr = new StreamResult(new File("C:\\007_Samples\\src\\com\\itvdn\\javaProfessional\\ex_002_XML\\XMLSaveDOM\\3.xml"));
+            StreamResult sr = new StreamResult(new File("C:\\other\\CucumberFramework\\MyFirstPRoject\\src\\PRO\\l7\\ex_002_XML\\XMLSaveDOM\\7.xml"));
 
             // Трансформуємо із джерела у файл
             t.transform(source, sr);

@@ -15,8 +15,7 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) {
         try {
-            File xmlFile = new File("D:\\Java Professional Course_video\\" +
-                    "010_XML\\010_Samples\\src\\javaProfessional\\ex_002_DOM\\XMLParserDOM\\1.xml");
+            File xmlFile = new File("C:\\other\\CucumberFramework\\MyFirstPRoject\\src\\PRO\\l7\\ex_002_XML\\XMLParserDOM1\\1.xml");
 
             DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
             // Получаем объект DocumentBuilder

@@ -10,7 +10,7 @@ import javax.xml.parsers.SAXParserFactory;
 public class Main {
     public static void main(String args[]) {
         // Ім'я файлу
-        final String fileName = "D:\\Course\\Java Professional Course\\Java Professional Student\\007_Serialization_XML_and_JSON\\007_Samples\\src\\com\\itvdn\\javaProfessional\\ex_005_SAXParser\\SAXParser\\Phonebook.xml";
+        final String fileName = "C:\\other\\CucumberFramework\\MyFirstPRoject\\src\\PRO\\l7\\Phonebook.xml";
         try {
             SAXParserFactory factory = SAXParserFactory.newInstance();
             SAXParser saxParser = factory.newSAXParser();

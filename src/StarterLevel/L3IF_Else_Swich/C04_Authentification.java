@@ -6,27 +6,27 @@ public class C04_Authentification {
     public static void main(String[] args) {
         String login = "Admin";
         String password = "P@ssw0rd";
-        // РќР° 10-РјСѓ СЂСЏРґРєСѓ СЃС‚РІРѕСЂСЋС”РјРѕ РѕР±'С”РєС‚ РєР»Р°СЃСѓ Scanner РґР»СЏ РѕР±СЂРѕР±РєРё РІРІРµРґРµРЅРЅСЏ Р· РєР»Р°РІС–Р°С‚СѓСЂРё
+        // На 10-му рядку створюємо об'єкт класу Scanner для обробки введення з клавіатури
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Р’РІРµРґС–С‚СЊ login: ");
+        System.out.print("Введіть login: ");
 
-        // РќР° 17 СЂСЏРґРєСѓ СЃС‚РІРѕСЂСЋС”РјРѕ СЂСЏРґРєРѕРІСѓ Р»РѕРєР°Р»СЊРЅСѓ Р·РјС–РЅРЅСѓ Р· С–Рј'СЏРј usersLogin
-        // С– РїСЂРёР№РјР°С”РјРѕ РґРѕ РЅРµС— РІРІРµРґРµРЅРЅСЏ РІС–Рґ РєРѕСЂРёСЃС‚СѓРІР°С‡Р°
+        // На 17 рядку створюємо рядкову локальну змінну з ім'ям usersLogin
+        // і приймаємо до неї введення від користувача
 
         String usersLogin = sc.next();
 
         if (login.equals(usersLogin)) {
-            System.out.print("Р’РІРµРґС–С‚СЊ password: ");
+            System.out.print("Введіть password: ");
             String usersPassword = sc.next();
 
             if (password.equals(usersPassword)) {
-                System.out.println("Р”РѕР±СЂРѕРіРѕ РґРЅСЏ " + usersLogin + ", Р’Рё СѓРІС–Р№С€Р»Рё РґРѕ СЃРёСЃС‚РµРјРё.");
+                System.out.println("Доброго дня " + usersLogin + ", Ви увійшли до системи.");
             } else {
-                System.out.println("Р’Рё РІРІРµР»Рё РЅРµРїСЂР°РІРёР»СЊРЅРёР№ РїР°СЂРѕР»СЊ!");
+                System.out.println("Ви ввели неправильний пароль!");
             }
         } else {
-            System.out.println("РќРµРјР°С” РєРѕСЂРёСЃС‚СѓРІР°С‡Р° Р· С‚Р°РєРёРј С–Рј'СЏРј!");
+            System.out.println("Немає користувача з таким ім'ям!");
         }
     }
 }

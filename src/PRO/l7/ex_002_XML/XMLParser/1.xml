@@ -14,4 +14,11 @@
         <price>20</price>
         <publish_date>2016-01-01</publish_date>
     </book2>
+    <book3>
+        <authot>Text</authot>
+        <title> Some txt</title>
+        <genre>a;skdfja;sdkjf</genre>
+        <price>30</price>
+        <publish_date>8888_77_77</publish_date>
+    </book3>
 </catalog>
