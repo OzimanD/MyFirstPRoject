@@ -16,15 +16,17 @@ public class Main {
 
         // через метод toString виводимо його вміст
         System.out.println(Arrays.toString(arr));
-
-        // пошук елемента в масиві
+//
+//        // пошук елемента в масиві
         System.out.println(Arrays.binarySearch(arr, 12));
-
-        // порівнює масиви
+//
+//        // порівнює масиви
         System.out.println(Arrays.equals(arr, arr2));
-
-        // вставити елемент у масив
+//
+//        // вставити елемент у масив
         Arrays.fill(arr, 12);
         System.out.println(Arrays.toString(arr));
+
+
     }
 }

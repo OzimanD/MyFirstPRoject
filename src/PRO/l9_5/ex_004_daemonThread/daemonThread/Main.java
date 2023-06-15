@@ -14,19 +14,19 @@ class Daemon extends Thread {
     public void run() {
         try {
             if (isDaemon()) {
-                System.out.println("СЃС‚Р°СЂС‚ РїРѕС‚РѕРєСѓ-РґРµРјРѕРЅСѓ");
+                System.out.println("старт потоку-демону");
                 sleep(1000);
             } else {
-                System.out.println("СЃС‚Р°СЂС‚ Р·РІРёС‡Р°Р№РЅРѕРіРѕ РїРѕС‚РѕРєСѓ");
+                System.out.println("старт звичайного потоку");
                 sleep(10);
             }
         } catch (InterruptedException e) {
             System.out.print("Error" + e);
         } finally {
             if (!isDaemon())
-                System.out.println("Р·Р°РІРµСЂС€РµРЅРЅСЏ СЂРѕР±РѕС‚Рё Р·РІРёС‡Р°Р№РЅРѕРіРѕ РїРѕС‚РѕРєСѓ");
+                System.out.println("завершення роботи звичайного потоку");
             else
-                System.out.println("Р·Р°РІРµСЂС€РµРЅРЅСЏ СЂРѕР±РѕС‚Рё РїРѕС‚РѕРєСѓ-РґРµРјРѕРЅСѓ");
+                System.out.println("завершення роботи потоку-демону");
         }
     }
 }

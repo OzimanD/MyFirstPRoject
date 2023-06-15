@@ -6,15 +6,15 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         List<Person> persons = new ArrayList<>();
-        persons.add(new Person("Ð¡ÐµÑ€Ð³Ñ–Ð¹", 30));
-        persons.add(new Person("ÐÐ½Ð´Ñ€Ñ–Ð¹", 14));
-        persons.add(new Person("ÐžÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€", 25));
-        persons.add(new Person("Ð“Ð°Ð½Ð½Ð°", 8));
-        persons.add(new Person("Ð„Ð²Ð³ÐµÐ½", 23));
+        persons.add(new Person("Ñåðã³é", 30));
+        persons.add(new Person("Àíäð³é", 14));
+        persons.add(new Person("Îëåêñàíäð", 25));
+        persons.add(new Person("Ãàííà", 8));
+        persons.add(new Person("ªâãåí", 23));
 
-        // Ð”Ð»Ñ ÐºÐ¾Ð¶Ð½Ð¾Ð³Ð¾ ÐµÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð° ÐºÐ¾Ð»ÐµÐºÑ†Ñ–Ñ— Ð»ÑŽÐ´ÐµÐ¹ Ð²Ð¸ÐºÐ»Ð¸ÐºÐ°Ñ‚Ð¸ println
-        // Ñ‚Ð°ÐºÐ¾Ð¶ Ð²ÐºÐ°Ð·ÑƒÑ”Ð¼Ð¾ Ñ„Ñ–Ð»ÑŒÑ‚Ñ€Ð°Ñ†Ñ–ÑŽ, Ð²Ð¸Ð²Ð¾Ð´Ð¸Ñ‚Ð¸ Ð»ÑŽÐ´ÐµÐ¹, Ñƒ ÐºÐ¾Ð³Ð¾ Ð²Ñ–Ðº Ð±Ñ–Ð»ÑŒÑˆÐµ 18,
-        // Ð° Ñ‚Ð°ÐºÐ¾Ð¶ Ð·Ð° Ð´Ð¾Ð¿Ð¾Ð¼Ð¾Ð³Ð¾ÑŽ interace Comparator, ÑÐ¾Ñ€Ñ‚ÑƒÐ²Ð°Ñ‚Ð¸ ÐºÐ¾Ð»ÐµÐºÑ†Ñ–ÑŽ Ð·Ð° Ñ–Ð¼'ÑÐ¼
+        // Äëÿ êîæíîãî åëåìåíòà êîëåêö³¿ ëþäåé âèêëèêàòè println
+        // òàêîæ âêàçóºìî ô³ëüòðàö³þ, âèâîäèòè ëþäåé, ó êîãî â³ê á³ëüøå 18,
+        // à òàêîæ çà äîïîìîãîþ interace Comparator, ñîðòóâàòè êîëåêö³þ çà ³ì'ÿì
         persons.stream().
                 filter(p -> p.getAge() >= 18).
                 sorted((p1, p2) -> p1.getName().compareTo(p2.getName())).

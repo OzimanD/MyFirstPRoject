@@ -25,7 +25,7 @@ class Main extends Thread {
     public static void main(String[] args) {
         howOften = 2;
         Thread cur = currentThread();
-        cur.setPriority(Thread.MAX_PRIORITY);
+        cur.setPriority(Thread.MIN_PRIORITY);
         Main th1 = new Main("Did");
         Main th2 = new Main("Did Not");
         th1.setThread(th2);

@@ -15,7 +15,7 @@ public class Switcher {
     }
 
     public void switchOn() {
-        System.out.println("Р’РёРјРёРєР°С‡ СѓРІС–РјРєРЅРµРЅРѕ");
+        System.out.println("Вимикач увімкнено");
 //        if (consumer != null)
 //            consumer.electricityOn();
         for(ElectricityConsumer c : listeners) {

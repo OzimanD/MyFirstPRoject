@@ -18,14 +18,14 @@ public class Main {
 
         // дістаємо елемент за індексом
         System.out.println(arrayList.get(1));
-
-        // Помилка IndexOutOfBoundException
-        // System.out.println(arrayList.get(2));
-
-        // дістаємо індекс об'єкту
+//
+//        // Помилка IndexOutOfBoundException
+//         System.out.println(arrayList.get(2));
+//
+//        // дістаємо індекс об'єкту
         System.out.println(arrayList.indexOf("name"));
-
-        // дістаємо індекс об'єкта з кінця
+//
+//        // дістаємо індекс об'єкта з кінця
         System.out.println(arrayList.lastIndexOf("surname"));
     }
 }

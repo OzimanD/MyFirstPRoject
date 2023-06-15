@@ -1,8 +1,8 @@
 package OOP.L3Inheritance.ex003_constructors;
-
-/**
- * Успадкування
- */
+//
+///**
+// * Успадкування
+// */
 public class Main {
     public static void main(String[] args) {
         DerivedClass instance = new DerivedClass(1, 2);

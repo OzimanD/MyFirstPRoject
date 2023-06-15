@@ -9,7 +9,7 @@ public class Main {
         Cashier c3 = new Cashier(3, t);
         Cashier c4 = new Cashier(4, t);
 
-        c1.start();
+//        c1.start();
         c2.start();
         c3.start();
         c4.start();

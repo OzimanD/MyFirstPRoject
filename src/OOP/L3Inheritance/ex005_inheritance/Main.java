@@ -23,6 +23,7 @@ public class Main {
 
 //        System.out.println(newInstance.field4);
 //        System.out.println(newInstance.field5);
+        System.out.println(instance.field4);
 
         // Перевірка.
         System.out.println("instance Id:     " + instance.hashCode());

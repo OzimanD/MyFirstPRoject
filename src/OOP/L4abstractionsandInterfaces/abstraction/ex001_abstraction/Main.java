@@ -3,23 +3,20 @@ package OOP.L4abstractionsandInterfaces.abstraction.ex001_abstraction;
 /**
  * Абстрактний клас.
  */
-abstract class AbstractClass {
-    public abstract void method();
+interface Interface {
+    void method();
 }
 
-/**
- * Конкретний клас.
- */
-class ConcreteClass extends AbstractClass {
+class MyClass implements Interface {
     public void method() {
-        System.out.println("Implementation");
+        System.out.println("Method - realizaciya Interface.");
     }
 }
 
 public class Main {
     public static void main(String[] args) {
-        AbstractClass instance = new ConcreteClass();
+        MyClass my = new MyClass();
 
-        instance.method();
+        my.method();
     }
 }

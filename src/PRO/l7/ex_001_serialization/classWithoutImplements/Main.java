@@ -5,8 +5,7 @@ import java.io.*;
 public class Main {
     public static void main(String[] args) throws Exception {
         // Створюємо об'єкт класу файл та вказуємо файл
-        File f = new File("C:\\Users\\Admin\\OneDrive\\Рабочий стол\\Рабочий стол\\CBS\\3Продвинутый\\007_Samples\\src\\com\\itvdn\\" +
-                "javaProfessional\\ex_001_serialization\\classWithoutImplements\\file3.png");
+        File f = new File("C:\\other\\CucumberFramework\\MyFirstPRoject\\src\\PRO\\l7\\ex_001_serialization\\classWithoutImplements\\file3.txt");
         Car c = new Car(100, 5000, "BMW", new Engine(1500, "MANN"));
         // При десеріалізації робиться виклик конструктора супер класу,
         // значення на 150 не змінює, можна Machie implements Seriazable зробити

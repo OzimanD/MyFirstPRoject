@@ -2,7 +2,7 @@ package PRO.l10.ex_001_lambdaExpression.withoutLambdaExpression;
 
 public class Lamp implements ElectricityConsumer {
     public void lightOn() {
-        System.out.println("–õ–∞–º–ø–∞ –∑–∞–∂–≥–ª–∞—Å—å");
+        System.out.println("À‡ÏÔ‡ Á‡Ê„Î‡Ò¸");
     }
 
     public void electricityOn(Object sender) {

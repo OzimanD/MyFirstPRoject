@@ -13,7 +13,7 @@ public class Ticket {
         if (!isBought) {
             try {
                 // Якщо квиток не куплено, на 1 сек засипаємо
-                Thread.sleep(8000);
+                Thread.sleep(1000);
             } catch (InterruptedException e) {
                 System.out.println(e);
             }

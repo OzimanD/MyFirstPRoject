@@ -15,4 +15,5 @@ public class BaseClass {
 
     // Захищене поле.
     protected String protectedField = "BaseClass.protectedField";
+    int b = 8;
 }

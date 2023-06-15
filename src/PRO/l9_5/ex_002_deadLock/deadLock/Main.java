@@ -28,7 +28,7 @@ class MyThreadOne extends Thread {
         } catch (Exception e) {
         }
         try {
-            System.out.println("MyThreadOne interrupt MyThreadTwo finishâ€¦");
+            System.out.println("MyThreadOne interrupt MyThreadTwo finish…");
             t2.join();
 
         } catch (Exception e) {
@@ -53,7 +53,7 @@ class MyThreadTwo extends Thread {
     public void run() {
         System.out.println("MyThreadTwo start");
         try {
-            System.out.println("MyThreadTwo interrupt MyThreadOne finishâ€¦");
+            System.out.println("MyThreadTwo interrupt MyThreadOne finish…");
             t1.join();
 
         } catch (Exception e) {
